@@ -1,0 +1,181 @@
+:root {
+    --whiteText: #F9FAF8;
+    --blackText: #1F2937;
+    --secondaryText: #E5E7EB;
+    --darkBackground: #1F2937;
+}
+
+*{
+    text-decoration: none;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+a{
+    color: var(--whiteText);
+    margin-left: 10px;
+}
+
+header, footer {
+    background-color: var(--darkBackground);
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    color: var(--whiteText);
+    padding: 20px 15%;
+    font-weight: 900;
+}
+
+nav {
+    font-size: 18px;
+    color: var(--secondaryText);
+    font-weight: 400;
+}
+
+#heroSection {
+    background-color: var(--darkBackground);
+    display: flex;
+    color: var(--whiteText);
+    justify-content: space-between;
+    gap: 200px;
+    padding: 100px 15%;
+}
+
+#heroText {
+    margin: auto 0;
+}
+
+#heroText > h1{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#heroText > p {
+    font-size: 18px;
+    color: var(--secondaryText);
+}
+
+#heroText > button {
+    font-size: 18px;
+    background-color: #3882F6;
+    color: var(--whiteText);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-weight: 600;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+#imgHolder {
+    background-color: grey;
+    min-width: 600px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#infoSection {
+    background-color: var(--whiteText);
+    padding: 100px 15%;
+}
+
+#infoSection > h2 {
+    font-size: 36px;
+    color: var(--blackText);
+    font-weight: 900;
+    text-align: center;
+}
+
+#blocos{
+    display: flex;
+    gap: 50px;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.bloco {
+    width: 200px;
+}
+
+.bloco > div {
+    border: 4px solid #3882F6;
+    height: 200px;
+    border-radius: 30px;
+}
+
+.bloco > p {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: var(--blackText);
+}
+
+
+#quoteSection{
+    background-color: var(--secondaryText);
+    padding: 100px 15%;
+}
+
+#quoteText > h3 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    margin: 0 250px;
+    text-align: justify;
+}
+
+#quoteText > p {
+    margin-top: 10px;
+    margin-right: 250px;
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+#callToActionSection {
+    padding: 100px 15%;
+    background-color: var(--whiteText);
+}
+
+#actionBox {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: var(--whiteText);
+}
+
+
+#actionText > p:first-child {
+    font-size: 28px;
+    font-weight: 900;
+}
+
+#actionBox > button {
+    font-size: 18px;
+    background-color: #3882F6;
+    color: var(--whiteText);
+    border: 2px solid var(--whiteText);
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-weight: 600;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+footer {
+    padding: 50px 15%;
+    color: var(--whiteText);
+    font-size: 18px;
+    text-align: center;
+}
